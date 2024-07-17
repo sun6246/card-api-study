@@ -55,13 +55,14 @@ window.addEventListener("load", function () {
         </div>
        </a>
       `;
-
+   
       tag += tempTag;
      });
-
-    //  html 배치
-    const cardWrapElement = document.querySelector(".card-wrap");
-    cardWrapElement.innerHTML = tag 
+   
+     // html 배치
+     const cardWrapElement = document.querySelector(".card-wrap");
+     cardWrapElement.innerHTML = tag;
+     return cardWrapElement;
     }
    });
    
